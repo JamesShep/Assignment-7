@@ -1,11 +1,3 @@
-Assignment #7
-In this assignment you'll need to apply your new knowledge of unit testing and test driven development.
-
-Using Test Driven Development, your goal is to add new functionality (as well as refactor) your code from Assignment 5.
-
-You will need to add to the functionality of your CustomArrayList based on this newly updated interface:
-
-
 package com.coderscampus.assignment7;
 
 
@@ -25,7 +17,7 @@ public interface CustomList<T> {
 
     boolean add (T item);
 
-   
+
     /**
 
      * This method should add a new item into the <code>CustomList</code> at the
@@ -48,7 +40,7 @@ public interface CustomList<T> {
 
     boolean add (int index, T item) throws IndexOutOfBoundsException;
 
-   
+
     /**
 
      * This method should return the size of the <code>CustomList</code>
@@ -61,7 +53,7 @@ public interface CustomList<T> {
 
     int getSize();
 
-   
+
     /**
 
      * This method will return the actual element from the <code>CustomList</code> based on the
@@ -78,7 +70,7 @@ public interface CustomList<T> {
 
     T get(int index) throws IndexOutOfBoundsException;
 
-   
+
     /**
 
      * This method should remove an item from the <code>CustomList</code> at the
