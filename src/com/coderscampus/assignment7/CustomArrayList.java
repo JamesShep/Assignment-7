@@ -55,7 +55,6 @@ public class CustomArrayList<T> implements CustomList<T> {
         return removedItem;
     }
 
-
     private Object[] increaseArraySize() {
         Object[] newItemsArray = new Object[arraySize*2];
         for (int i = 0; i < arraySize; i++) {
